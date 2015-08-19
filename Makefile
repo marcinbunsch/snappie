@@ -3,4 +3,4 @@ all:
 	go build
 
 launchctl:
-	launchctl load support/pl.bunsch.snappie.plist
+	support/build_launchctl > ~/Library/LaunchAgents/pl.bunsch.snappie.plist

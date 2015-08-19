@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+cat support/pl.bunsch.snappie.plist.template | sed "s#\$GOPATH#$GOPATH#g"
