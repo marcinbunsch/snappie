@@ -1,8 +1,7 @@
 all:
-	go get
-	go build
 
 install:
+	cd snappie && go get && go build && go install
 	support/build_launchctl > ~/Library/LaunchAgents/pl.bunsch.snappie.plist
 
 uninstall:
